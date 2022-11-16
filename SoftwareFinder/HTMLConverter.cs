@@ -42,10 +42,10 @@ namespace SoftwareFinder
         {
             var xmlFilePath = htmlPath.Replace(".html", ".xml");
 
-           // var fs = new FileStream(xmlFilePath, FileMode.Create);
-           // var serializer = new XmlSerializer(List<Software>, new XmlRootAttribute("Softwares"));
-           // serializer.Serialize(fs, _outputSoftwares);
-           // fs.Close();
+           var fs = new FileStream(xmlFilePath, FileMode.Create);
+           var serializer = new XmlSerializer(List<Software>, new XmlRootAttribute("Softwares"));
+           serializer.Serialize(fs, _outputSoftwares);
+           fs.Close();
 
             return xmlFilePath;
         }
