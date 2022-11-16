@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Softwares>
+	<Software>
+		<Name>Word</Name>
+		<Annotation>Program for text</Annotation>
+		<Type>Application program</Type>
+		<Version>10.0</Version>
+		<Developer>MS</Developer>
+		<Distribution>Commercial</Distribution>
+	</Software>
+	<Software>
+		<Name>MS Visual Studio</Name>
+		<Annotation>IDE from Microsoft</Annotation>
+		<Type>Programming environment</Type>
+		<Version>11.0</Version>
+		<Developer>Microsoft</Developer>
+		<Distribution>Free and commercial</Distribution>
+	</Software>
+	<Software>
+		<Name>Maple</Name>
+		<Annotation>Program for computer algebra</Annotation>
+		<Type>Application program</Type>
+		<Version>22.3</Version>
+		<Developer>Waterloo Maple Inc</Developer>
+		<Distribution>Commercial</Distribution>
+	</Software>
+	<Software>
+		<Name>Adobe Acrobat</Name>
+		<Annotation>Program for reading PDF</Annotation>
+		<Type>Application program</Type>
+		<Version>11.0.4</Version>
+		<Developer>Adobe Systems, Inc</Developer>
+		<Distribution>Free and commercial</Distribution>
+	</Software>
+</Softwares>

@@ -1,0 +1,645 @@
+﻿<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="ClearButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 679</value>
+  </data>
+  <data name="ClearButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>152, 29</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ClearButton.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="ClearButton.Text" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.Name" xml:space="preserve">
+    <value>ClearButton</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ClearButton.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="ConvertToHTMLButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>485, 679</value>
+  </data>
+  <data name="ConvertToHTMLButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>290, 29</value>
+  </data>
+  <data name="ConvertToHTMLButton.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="ConvertToHTMLButton.Text" xml:space="preserve">
+    <value>Convert to HTML</value>
+  </data>
+  <data name="&gt;&gt;ConvertToHTMLButton.Name" xml:space="preserve">
+    <value>ConvertToHTMLButton</value>
+  </data>
+  <data name="&gt;&gt;ConvertToHTMLButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ConvertToHTMLButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ConvertToHTMLButton.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource" xml:space="preserve">
+    <value>Google Chrome</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource1" xml:space="preserve">
+    <value>Firefox</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource2" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource3" xml:space="preserve">
+    <value>Opera</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource4" xml:space="preserve">
+    <value>Microsoft Edge</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource5" xml:space="preserve">
+    <value>MS Visual Studio</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource6" xml:space="preserve">
+    <value>uTorrent</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource7" xml:space="preserve">
+    <value>GOM Player</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource8" xml:space="preserve">
+    <value>MusicBee</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource9" xml:space="preserve">
+    <value>Maple</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource10" xml:space="preserve">
+    <value>Telegram</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource11" xml:space="preserve">
+    <value>Paint</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource12" xml:space="preserve">
+    <value>7‑Zip</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource13" xml:space="preserve">
+    <value>Foxit Reader</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource14" xml:space="preserve">
+    <value>Adobe Acrobat</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource15" xml:space="preserve">
+    <value>CCleaner</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource16" xml:space="preserve">
+    <value>Avast Free Antivirus</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource17" xml:space="preserve">
+    <value>LibreOffice</value>
+  </data>
+  <data name="NameBox.AutoCompleteCustomSource18" xml:space="preserve">
+    <value>Word</value>
+  </data>
+  <data name="NameBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 132</value>
+  </data>
+  <data name="NameBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="NameBox.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;NameBox.Name" xml:space="preserve">
+    <value>NameBox</value>
+  </data>
+  <data name="&gt;&gt;NameBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameBox.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="NameCheck.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="NameCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="NameCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 132</value>
+  </data>
+  <data name="NameCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 30</value>
+  </data>
+  <data name="NameCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="NameCheck.Text" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="&gt;&gt;NameCheck.Name" xml:space="preserve">
+    <value>NameCheck</value>
+  </data>
+  <data name="&gt;&gt;NameCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;NameCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;NameCheck.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="AnnotationCheck.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="AnnotationCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="AnnotationCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 168</value>
+  </data>
+  <data name="AnnotationCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 30</value>
+  </data>
+  <data name="AnnotationCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="AnnotationCheck.Text" xml:space="preserve">
+    <value>Annotation</value>
+  </data>
+  <data name="&gt;&gt;AnnotationCheck.Name" xml:space="preserve">
+    <value>AnnotationCheck</value>
+  </data>
+  <data name="&gt;&gt;AnnotationCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnnotationCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AnnotationCheck.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="TypeCheck.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="TypeCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="TypeCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 204</value>
+  </data>
+  <data name="TypeCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 30</value>
+  </data>
+  <data name="TypeCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="TypeCheck.Text" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="&gt;&gt;TypeCheck.Name" xml:space="preserve">
+    <value>TypeCheck</value>
+  </data>
+  <data name="&gt;&gt;TypeCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TypeCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TypeCheck.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="VersionCheck.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="VersionCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="VersionCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 241</value>
+  </data>
+  <data name="VersionCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 30</value>
+  </data>
+  <data name="VersionCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="VersionCheck.Text" xml:space="preserve">
+    <value>Version</value>
+  </data>
+  <data name="&gt;&gt;VersionCheck.Name" xml:space="preserve">
+    <value>VersionCheck</value>
+  </data>
+  <data name="&gt;&gt;VersionCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VersionCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VersionCheck.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="DeveloperCheck.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="DeveloperCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DeveloperCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 277</value>
+  </data>
+  <data name="DeveloperCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>88, 30</value>
+  </data>
+  <data name="DeveloperCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="DeveloperCheck.Text" xml:space="preserve">
+    <value>Developer</value>
+  </data>
+  <data name="&gt;&gt;DeveloperCheck.Name" xml:space="preserve">
+    <value>DeveloperCheck</value>
+  </data>
+  <data name="&gt;&gt;DeveloperCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeveloperCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DeveloperCheck.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="DistributionCheck.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="DistributionCheck.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DistributionCheck.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 313</value>
+  </data>
+  <data name="DistributionCheck.Size" type="System.Drawing.Size, System.Drawing">
+    <value>97, 30</value>
+  </data>
+  <data name="DistributionCheck.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="DistributionCheck.Text" xml:space="preserve">
+    <value>Distribution</value>
+  </data>
+  <data name="&gt;&gt;DistributionCheck.Name" xml:space="preserve">
+    <value>DistributionCheck</value>
+  </data>
+  <data name="&gt;&gt;DistributionCheck.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DistributionCheck.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DistributionCheck.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="SearchButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 414</value>
+  </data>
+  <data name="SearchButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>309, 29</value>
+  </data>
+  <data name="SearchButton.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="SearchButton.Text" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="&gt;&gt;SearchButton.Name" xml:space="preserve">
+    <value>SearchButton</value>
+  </data>
+  <data name="&gt;&gt;SearchButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SearchButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SearchButton.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="AnnotationBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 168</value>
+  </data>
+  <data name="AnnotationBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="AnnotationBox.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;AnnotationBox.Name" xml:space="preserve">
+    <value>AnnotationBox</value>
+  </data>
+  <data name="&gt;&gt;AnnotationBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;AnnotationBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;AnnotationBox.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="TypeBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 204</value>
+  </data>
+  <data name="TypeBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="TypeBox.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;TypeBox.Name" xml:space="preserve">
+    <value>TypeBox</value>
+  </data>
+  <data name="&gt;&gt;TypeBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;TypeBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;TypeBox.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="VersionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 241</value>
+  </data>
+  <data name="VersionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="VersionBox.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;VersionBox.Name" xml:space="preserve">
+    <value>VersionBox</value>
+  </data>
+  <data name="&gt;&gt;VersionBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;VersionBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;VersionBox.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="DeveloperBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 280</value>
+  </data>
+  <data name="DeveloperBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="DeveloperBox.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;DeveloperBox.Name" xml:space="preserve">
+    <value>DeveloperBox</value>
+  </data>
+  <data name="&gt;&gt;DeveloperBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DeveloperBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DeveloperBox.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="DistributionBox.AutoCompleteCustomSource" xml:space="preserve">
+    <value>Free</value>
+  </data>
+  <data name="DistributionBox.AutoCompleteCustomSource1" xml:space="preserve">
+    <value>Commercial</value>
+  </data>
+  <data name="DistributionBox.AutoCompleteCustomSource2" xml:space="preserve">
+    <value>Free and commercial</value>
+  </data>
+  <data name="DistributionBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>126, 316</value>
+  </data>
+  <data name="DistributionBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 27</value>
+  </data>
+  <data name="DistributionBox.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;DistributionBox.Name" xml:space="preserve">
+    <value>DistributionBox</value>
+  </data>
+  <data name="&gt;&gt;DistributionBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DistributionBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DistributionBox.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="DomButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="DomButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>13, 377</value>
+  </data>
+  <data name="DomButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 24</value>
+  </data>
+  <data name="DomButton.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="DomButton.Text" xml:space="preserve">
+    <value>DOM API</value>
+  </data>
+  <data name="&gt;&gt;DomButton.Name" xml:space="preserve">
+    <value>DomButton</value>
+  </data>
+  <data name="&gt;&gt;DomButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;DomButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;DomButton.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="SaxButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="SaxButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>110, 377</value>
+  </data>
+  <data name="SaxButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 24</value>
+  </data>
+  <data name="SaxButton.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="SaxButton.Text" xml:space="preserve">
+    <value>SAX API</value>
+  </data>
+  <data name="&gt;&gt;SaxButton.Name" xml:space="preserve">
+    <value>SaxButton</value>
+  </data>
+  <data name="&gt;&gt;SaxButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;SaxButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;SaxButton.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="LinqButton.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LinqButton.Location" type="System.Drawing.Point, System.Drawing">
+    <value>203, 377</value>
+  </data>
+  <data name="LinqButton.Size" type="System.Drawing.Size, System.Drawing">
+    <value>118, 24</value>
+  </data>
+  <data name="LinqButton.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="LinqButton.Text" xml:space="preserve">
+    <value>LINQ TO XML</value>
+  </data>
+  <data name="&gt;&gt;LinqButton.Name" xml:space="preserve">
+    <value>LinqButton</value>
+  </data>
+  <data name="&gt;&gt;LinqButton.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LinqButton.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LinqButton.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="ResultsBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>327, 12</value>
+  </data>
+  <data name="ResultsBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>448, 661</value>
+  </data>
+  <data name="ResultsBox.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="ResultsBox.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;ResultsBox.Name" xml:space="preserve">
+    <value>ResultsBox</value>
+  </data>
+  <data name="&gt;&gt;ResultsBox.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ResultsBox.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ResultsBox.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="HTMLSaveDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="HTMLSaveDialog.Filter" xml:space="preserve">
+    <value>HTML File(*.html) | *.html</value>
+  </data>
+  <data name="HTMLSaveDialog.Title" xml:space="preserve">
+    <value>Choose saving location:</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 20</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>787, 715</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>SoftwareFinder</value>
+  </data>
+  <data name="&gt;&gt;HTMLSaveDialog.Name" xml:space="preserve">
+    <value>HTMLSaveDialog</value>
+  </data>
+  <data name="&gt;&gt;HTMLSaveDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.SaveFileDialog, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>SoftwareFinderForm</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
