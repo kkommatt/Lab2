@@ -41,11 +41,26 @@ namespace SoftwareFinder
         private string ExtractResultsInTempXML(string htmlPath)
         {
             var xmlFilePath = htmlPath.Replace(".html", ".xml");
-
-           var fs = new FileStream(xmlFilePath, FileMode.Create);
-           var serializer = new XmlSerializer(List<Software>, new XmlRootAttribute("Softwares"));
-           serializer.Serialize(fs, _outputSoftwares);
-           fs.Close();
+            
+            XmlWriterSettings settings = new XmlWriterSettings();
+            settings.Indent = true;
+            
+            using XmlWriter writer = XmlWriter.Create(xmlFilePath, settings);
+            writer.WriteStartElement("Softwares");
+            
+            foreach (var x in _outputSoftwares)
+            {
+                writer.WriteStartElement("Software");
+                writer.WriteElementString("Name", x.Name.ToString());
+                writer.WriteElementString("Annotation", x.Annotation.ToString());
+                writer.WriteElementString("Type", x.Type.ToString());
+                writer.WriteElementString("Version", x.Version.ToString());
+                writer.WriteElementString("Developer", x.Developer.ToString());
+                writer.WriteElementString("Distribution", x.Distribution.ToString());
+                writer.WriteEndElement();
+            }
+            
+            writer.WriteEndElement();
 
             return xmlFilePath;
         }
